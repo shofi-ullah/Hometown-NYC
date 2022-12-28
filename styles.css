@@ -1,0 +1,115 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+.hero {
+  background-image: url("images/empire-state.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title,
+.title-description {
+  color: #fff;
+  text-shadow: 1px 2px 4px #000;
+}
+
+.title-description {
+  font-style: italic;
+  font-size: 1.4em;
+  width: 60%;
+  margin-top: -10px;
+  padding: 30px;
+  line-height: 1.8;
+}
+
+.activities-section {
+  background-color: darkslategray;
+  margin: -70px;
+}
+
+.activities-section h2 {
+  margin-top: 60px;
+  padding: 30px;
+  color: whitesmoke;
+}
+
+#activities-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.activities-column img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.activities-column p,
+h3 {
+  max-width: 300px;
+  color: white;
+  text-shadow: 0px 0px black;
+}
+
+.activities-column p {
+  font-style: italic;
+}
+
+.activities-column > img:hover {
+  background-image: url("images/park.gif");
+}
+
+.guide-section h2,
+p,
+h4 {
+  color: #343a40;
+}
+
+#card {
+  width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  background-color: palevioletred;
+  border-radius: 30px;
+}
+
+#guide-img {
+  width: 200px;
+  height: 200px;
+  margin: auto 0;
+  border-radius: 40%;
+  margin-right: 10px;
+}
+
+.guide-desc {
+  margin-left: 40px;
+}
+
+.guide-desc h2,
+h4,
+p {
+  color: #fff;
+}
